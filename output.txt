@@ -1,0 +1,5 @@
+Patient Name: John Doe
+Date of Exam: 02/05/2023
+Chief Complaint: The patient presented with complaints of headaches, fatigue, and decreased energy levels.
+Impression: The patient's presentation is consistent with a primary headache disorder, most likely tension-type headache.
+The patient was advised to stay hydrated, maintain good sleep hygiene, and practice relaxation techniques. Over-the-counter pain relievers were prescribed for symptom relief. The patient was also advised to follow-up in 2 weeks or earlier if symptoms worsen.

@@ -1,0 +1,405 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> NMD | Records</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/emoji/48/null/eyes-emoji.png">
+    <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/static/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/static/assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="/static/assets/css/gijgo.css">
+    <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/static/assets/css/animated-headline.css">
+    <link rel="stylesheet" href="/static/assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="/static/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+</head>
+
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDUlfWzcOXcJKW5SLwVMU33FVUfj8LfVdw",
+            authDomain: "healthdb-hackathon.firebaseapp.com",
+            projectId: "healthdb-hackathon",
+            storageBucket: "healthdb-hackathon.appspot.com",
+            messagingSenderId: "480561590329",
+            appId: "1:480561590329:web:cceef6903a9e68f04edde8",
+            measurementId: "G-WKZ0S961NV"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/telemedicine.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header ">
+                <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="/records">View Records</a></li>
+                                                <li><a href="/add">Add Record</a></li>
+                                                <!-- Button -->
+                                                <li class="button-header margin-left" id="nav-sign-up"><a href="/register" class="btn">Sign Up</a></li>
+                                                <li class="button-header" id="nav-sign-in"><a href="/login" class="btn3">Sign In</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Slider Area Start-->
+        <div class="slider-area slider-bg ">
+            <!-- Single Slider -->
+            <div class="single-slider d-flex align-items-center slider-height3">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-xl-8 col-lg-9 col-md-12 ">
+                            <div class="hero__caption hero__caption3 text-center">
+                                <h1 data-animation="fadeInLeft" data-delay=".6s " id="records-title">Your Records</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Shape -->
+            <div class="slider-shape d-none d-lg-block">
+                <img class="slider-shape1" src="/static/assets/img/hero/top-left-shape.png" alt="">
+            </div>
+        </div>
+        <!--? Start Align Area -->
+        <div class="whole-wrap">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-2 col-md-0"></div>
+                    <div class="col-lg-8 col-md-12" id="container">
+                    </div>
+                    <div class="col-lg-2 col-md-0"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Align Area -->
+    </main>
+
+    <!-- JS here -->
+
+    <style>
+        #container {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        .record {
+            width: calc(100% - 50px);
+            max-width: 600px;
+            padding: 15px;
+            border: 3px solid #000000;
+            color: #000000;
+            border-radius: 10px;
+            margin: 10px;
+            transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+        }
+        
+        .record>* {
+            color: inherit !important;
+        }
+        
+        .record>*>* {
+            color: inherit !important;
+        }
+        
+        .record>p {
+            margin: 0;
+            text-align: left;
+        }
+        
+        .record-1 {
+            border: 3px solid #13005A;
+            cursor: pointer;
+        }
+        
+        .record-2 {
+            border: 3px solid #13005A;
+            cursor: pointer;
+        }
+        
+        .record-3 {
+            border: 3px solid #13005A;
+            cursor: pointer;
+        }
+        
+        .record-1:hover {
+            background-color: #E3F6FF;
+            color: #000000;
+        }
+        
+        .record-2:hover {
+            background-color: #E3F6FF;
+            color: #000000;
+        }
+        
+        .record-3:hover {
+            background-color: #E3F6FF;
+            color: #000000;
+        }
+    </style>
+
+    <script>
+        const db = firebase.firestore();
+        const container = document.getElementById("container");
+
+        let dbRef;
+        let dbUnsubscribe;
+
+        const authenticated = (user) => {
+            dbRef = db.collection("records");
+            dbUnsubscribe = dbRef
+                .where("uid", "==", user.uid)
+                .orderBy("createdAt")
+                .onSnapshot((snapshot) => {
+                    updateSnapshot(snapshot, "");
+                    resolvedCredentials = true;
+                    if (windowLoaded && resolvedCredentials) {
+                        $('#preloader-active').delay(450).fadeOut('slow');
+                        $('body').delay(450).css({
+                            'overflow': 'visible'
+                        });
+                    }
+                });
+        }
+        const updateSnapshot = (snapshot, patient) => {
+            let names = new Set();
+            let unorderedElements = snapshot.docs.map((document) => {
+                names.add(document.data().patient);
+                return {
+                    data: document.data(),
+                    id: document.id
+                };
+            });
+            names = [...names];
+            let elements = Array(unorderedElements.length);
+            for (let i = 0; i < unorderedElements.length; i++) {
+                elements[elements.length - i - 1] = unorderedElements[i];
+            }
+            let latest = {};
+            let domEls = elements.map((doc) => {
+                latest[doc.data.type] = doc.data;
+                let el = doc.data;
+                let id = doc.id;
+                if (el.type == 1) {
+                    return `
+							<div class="record record-1" onclick="window.location.href = '/records/${id}';">
+								<center><h3>[${el.patient}] Diabetic Retinopathy Image</h3></center>
+								<p>${el.result}</p>
+								<p>${new Date(el.createdAt.seconds * 1000).toLocaleDateString()} ${new Date(el.createdAt.seconds * 1000).toLocaleTimeString()}</p>
+							</div>
+						`;
+                } else if (el.type == 2) {
+                    return `
+							<div class="record record-2" onclick="window.location.href = '/records/${id}';">
+								<center><h3>[${el.patient}] Time Until Blind</h3></center>
+								<p>Orange: Treated<br>Blue: Untreated</p>
+								<img src="${el.result}" style="width: calc(100% - 50px);" />
+								<p>${new Date(el.createdAt.seconds * 1000).toLocaleDateString()} ${new Date(el.createdAt.seconds * 1000).toLocaleTimeString()}</p>
+							</div>
+						`;
+                } else if (el.type == 3) {
+                    return `
+							<div class="record record-3" onclick="window.location.href = '/records/${id}';">
+								<center><h3>[${el.patient}] Report Summary</h3></center>
+								<p>${el.result}</p>
+								<p>${new Date(el.createdAt.seconds * 1000).toLocaleDateString()} ${new Date(el.createdAt.seconds * 1000).toLocaleTimeString()}</p>
+							</div>
+						`;
+                }
+            });
+            names = names.map((name) => {
+                if (name == patient) {
+                    return `<option value="${name}" selected>${name}</option>`;
+                } else {
+                    return `<option value="${name}">${name}</option>`;
+                }
+            });
+            names = `<div class="input-group-icon mt-10">
+					<div class="icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
+					<div class="form-select">
+						<select onchange="updatePatients(this.value);">
+							<option value="">All Patients</option>
+							${names.join("")}
+						</select>
+					</div>
+				</div><br>`
+            if (patient == "") {
+                container.innerHTML = "<center>" + names + domEls.join("") + "</center>";
+            } else {
+                let latestKeys = Object.keys(latest);
+                latestKeys = latestKeys.map((latestKey) => {
+                    if (latestKey == "1") {
+                        return `<p><b>Diabetic Retinopathy Image:</b> ${latest[latestKey].result}</p><br>`;
+                    } else if (latestKey == "2") {
+                        return `<p><b>Time Until Blind:</b><br>Orange: Treated<br>Blue: Untreated</p><br>
+							<img src="${latest[latestKey].result}" style="width: calc(100% - 50px);" /><br>`;
+                    } else if (latestKey == "3") {
+                        return `<p><b>Report Summary:</b> ${latest[latestKey].result}</p><br>`;
+                    }
+                });
+                let extraData = `
+						<div class="record">
+							<center><h3>Latest Data for ${patient}</h3></center>
+							${latestKeys.join("")}
+						</div>
+					`;
+                container.innerHTML = "<center>" + names + extraData + domEls.join("") + "</center>";
+            }
+            let nice_Select = $('select');
+            if (nice_Select.length) {
+                nice_Select.niceSelect();
+            }
+        }
+        const updatePatients = (patient) => {
+            dbUnsubscribe && dbUnsubscribe();
+            if (patient == "") {
+                dbUnsubscribe = dbRef
+                    .where("uid", "==", auth.currentUser.uid)
+                    .orderBy("createdAt")
+                    .onSnapshot((snapshot) => {
+                        updateSnapshot(snapshot, patient);
+                    });
+            } else {
+                dbUnsubscribe = dbRef
+                    .where("uid", "==", auth.currentUser.uid)
+                    .where("patient", "==", patient)
+                    .orderBy("createdAt")
+                    .onSnapshot((snapshot) => {
+                        updateSnapshot(snapshot, patient);
+                    });
+            }
+        }
+    </script>
+
+    <script src="/static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="/static/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/static/assets/js/popper.min.js"></script>
+    <script src="/static/assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="/static/assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="/static/assets/js/owl.carousel.min.js"></script>
+    <script src="/static/assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="/static/assets/js/wow.min.js"></script>
+    <script src="/static/assets/js/animated.headline.js"></script>
+    <script src="/static/assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="/static/assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="/static/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/static/assets/js/jquery.sticky.js"></script>
+
+    <!-- Progress -->
+    <script src="/static/assets/js/jquery.barfiller.js"></script>
+
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="/static/assets/js/jquery.counterup.min.js"></script>
+    <script src="/static/assets/js/waypoints.min.js"></script>
+    <script src="/static/assets/js/jquery.countdown.min.js"></script>
+    <script src="/static/assets/js/hover-direction-snake.min.js"></script>
+
+    <!-- contact js -->
+    <script src="/static/assets/js/contact.js"></script>
+    <script src="/static/assets/js/jquery.form.js"></script>
+    <script src="/static/assets/js/jquery.validate.min.js"></script>
+    <script src="/static/assets/js/mail-script.js"></script>
+    <script src="/static/assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="/static/assets/js/plugins.js"></script>
+    <script src="/static/assets/js/main.js?v=2"></script>
+
+
+    <script>
+        const auth = firebase.auth();
+        var credentials;
+        var resolvedCredentials = false;
+        var windowLoaded = false;
+        auth.onAuthStateChanged(function(user) {
+            credentials = user;
+            if (credentials == null) {
+                window.location.href = "/login";
+            } else {
+                document.getElementById("nav-sign-in").remove();
+                document.getElementById("nav-sign-up").innerHTML = '<a href="javascript:auth.signOut();" class="btn">Sign Out</a>';
+                // document.getElementById("records-title").innerHTML = "Records for " + credentials.email;
+                authenticated && authenticated(credentials);
+            }
+        });
+        $(window).on('load', function() {
+            windowLoaded = true;
+            if (windowLoaded && resolvedCredentials) {
+                $('#preloader-active').delay(450).fadeOut('slow');
+                $('body').delay(450).css({
+                    'overflow': 'visible'
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
