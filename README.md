@@ -12,7 +12,7 @@ YouTube :- https://youtu.be/0XcF44-U0c4
 
 Diabetes is a devastating health condition and growing health concern in India. India has the second-highest number of people with diabetes globally, with an estimated 77 million people affected in 2019. According to the same study by the Indian Journal of Ophthalmology, diabetic retinopathy affects over 60% of people with diabetes in India. Therefore, is crucial for dr to be diagnosed both quickly and accurately
 
-## What it does ?!
+## Features ?!
 
 3 primary features of our application:
 
