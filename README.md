@@ -1,6 +1,6 @@
-# NMD
+# NMD (Naino Main Diabetes)
 
-Naino Main Diabetes -> Web-based application that promotes fairness and equality in clinical decision-making among ophthalmologists and experts. It also empowers patients by providing them with increased confidence in the accurate diagnosis of their condition. 
+Web-based application that promotes fairness and equality in clinical decision-making among ophthalmologists and experts. It also empowers patients by providing them with increased confidence in the accurate diagnosis of their condition. 
 
 Devfolio :- https://devfolio.co/projects/nmd-d200
 
